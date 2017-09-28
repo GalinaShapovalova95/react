@@ -1,0 +1,126 @@
+/* Base Application Styles */
+html, body {
+  color: #000000;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+.list,
+.list_info{
+  width: 40%;
+  float: left;
+  padding: 2% 0 0 7%;
+}
+.city-list{
+  list-style-type: none;
+  padding-left: 0;
+}
+.list__info_city{
+  list-style-type: none;
+  padding-left: 0;
+}
+.button{
+  margin: 1%;
+  cursor: pointer;
+}
+.input-city{
+  overflow: hidden;
+  height: 2.4em;
+  margin-right: 0.8%;
+  display: inline-block !important;
+  width: 72% !important;
+}
+.city-list__city{
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+.city__link{
+  text-decoration: none !important;
+  color: #1924cc;
+}
+.list__link{
+  padding: 7px 0;
+  font-size: 1.3em;
+  color: #1924cc;
+  text-decoration: none;
+}
+.city__list_edit{
+  list-style-type: none;
+  padding: 0;
+}
+/*.city__edit{*/
+  /*text-align: center;*/
+/*}*/
+.city__item{
+  padding: 2px 0;
+  font-size: 1.2em;
+}
+.city__input_style{
+  width: 592px !important;
+  display: inline-block !important;
+}
+.city__input_coord{
+  width: 150px !important;
+  display: inline-block !important;
+}
+.input-showplaces{
+  width: 500px !important;
+  display: inline-block !important;
+}
+.rating{
+  margin: 0 10px;
+  height: 30px;
+}
+.button_save{
+  background-color: #b3e6ad;
+}
+.list__link_bold{
+  font-weight: bold;
+}
+.contain__button{
+  margin: 25px 0;
+}
+.city__params{
+  width: 50%;
+  float: left;
+  padding: 2% 0 0 2%;
+}
+.city__map{
+  width: 45%;
+  float: left;
+  padding-top: 2%;
+}
+.city__rating{
+  display: inline-block;
+  border-style: inset;
+  border-color: #ca638f;
+  margin: 1%;
+  padding: 0 1%;
+}
+                                                          /*For Map*/
+#map {
+  height: 550px;
+  width: 800px;
+}
+.map{
+  height: 550px !important;
+  width: 50% !important;
+}
+
+
